@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+      dev
+
+---
+spring:
+  profiles:
+    application:
+      name: microservicecloud-config-dev
+
+---
+spring:
+  profiles:
+    application:
+      name: microservicecloud-config-test
